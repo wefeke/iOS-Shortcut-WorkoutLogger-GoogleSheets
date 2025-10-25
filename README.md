@@ -57,21 +57,20 @@ At the very top of the `Code.gs` file, you will find the **Personal Configuratio
 */
 
 // 1. Your Google Sheet ID (from the URL)
-const SPREADSHEET_ID = <img width="1298" height="276" alt="CleanShot 2025-10-25 at 20 25 06@2x" src="https://github.com/user-attachments/assets/01a2e6e9-753c-4f80-94c2-29569c75f1da" />
-"1f_XG_yZjM0yhskRnvGLo5jc3mjTjd3rz2zmv7YShdnQ";
+const SPREADSHEET_ID = "...";
 
 // 2. The name of the specific sheet (tab at the bottom)
-const SHEET_NAME = "Kennet";
+const SHEET_NAME = "...";
 
 // 3. Your Timezone (IMPORTANT for "today's" date)
-const TIME_ZONE = "Europe/Berlin";
+const TIME_ZONE = "...";
 
 // 4. How many sets per exercise is your goal?
-const TARGET_SETS = 3;
+const TARGET_SETS = ...;
 ```
 
-  * `SPREADSHEET_ID`: Get this from your Google Sheet's URL. It's the long string of characters in the middle: `.../spreadsheets/d/`**`[THIS_IS_THE_ID]`**`/edit...`
-  * `SHEET_NAME`: The name of the tab at the bottom of your sheet (e.g., "Workouts", "Kennet").
+  * `SPREADSHEET_ID`: Get this from your Google Sheet's URL. It's the long string of characters in the middle: `.../spreadsheets/d/`**`[THIS_IS_THE_ID]`**`/edit...`. For instance, if your URL is "https://docs.google.com/spreadsheets/d/1xcc5wkauH48dhg902hd85m2eXfRspR61qLAyvRL1mWFWGw/edit?gid=0#gid=0", your sheet ID would be 1xcc5wkauH48dhg902hd85m2eXfRspR61qLAyvRL1mWFWGw.
+  * `SHEET_NAME`: The name of the tab at the bottom of your sheet (e.g., "Workouts").
   * `TIME_ZONE`: This is critical for the tracking logic. The script uses this to determine what "today" is. (Examples: `"America/New_York"`, `"Europe/London"`).
   * `TARGET_SETS`: The number of sets you aim to complete for an exercise each day (e.g., `3`).
 
