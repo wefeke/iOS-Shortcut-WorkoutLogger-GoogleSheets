@@ -43,7 +43,7 @@ This part explains how to install and configure the backend code.
 3.  Delete function myFunction() {} in the `Code.gs` file.
     ![connecting-google-sheets-shortcuts-v0-dfpjqlxtf6rd1 png](https://github.com/user-attachments/assets/8b2e2597-3fe0-4b1a-be0a-9502dd221819)
 
-5.  Copy the entire contents of the `[Code.gs](Code.gs)` file from this repository and paste it into the empty editor.
+5.  Copy the entire contents of the [Code.gs](Code.gs) file from this repository and paste it into the empty editor.
 
 ### Step 2.2: Configure the Script
 
